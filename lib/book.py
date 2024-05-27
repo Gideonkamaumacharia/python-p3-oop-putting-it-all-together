@@ -9,4 +9,5 @@ class Book:
            return self.page_count
        print("page_count must be an integer")
 
-
+    def turn_page(self):
+        return "Flipping the page...wow, you read fast!"
