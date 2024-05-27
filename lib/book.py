@@ -1,6 +1,12 @@
-#!/usr/bin/env python3
 
 class Book:
-    pass
+    def __init__(self, title, page_count):
+        self.title = title
+        self.page_count = page_count
     
-        
+    def pagecount(self):
+       if isinstance(self.page_count,int):
+           return self.page_count
+       print("page_count must be an integer")
+
+
